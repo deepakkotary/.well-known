@@ -1,0 +1,45 @@
+{
+  "name": "re peal",
+  "short_name": "re peal",
+  "description": "store your ideas",
+  "start_url": "/.well-known/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+   "prefer_related_applications": false,
+ "orientation":"portrait-primary",
+  "id": "re peal",
+  "theme_color": "#ffffff",
+  "icons": [
+       {
+      "src": "./re-peal72.png",
+      "sizes": "72x72",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal128.png",
+      "sizes": "128x128",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal144.png",
+      "sizes": "144x144",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal192.png",
+      "sizes": "192x192",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal512.png",
+      "sizes": "512x512",
+      "purpose": "any",
+      "type": "image/png"
+    }
+  ]
+}
+

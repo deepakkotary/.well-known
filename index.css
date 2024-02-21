@@ -1,0 +1,108 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body{
+     padding: 0px;
+     margin: 0px;
+     overflow: hidden;
+     background-color: white;
+}
+.body-no-scroll {
+  overflow: hidden;
+}
+.container{
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+}
+.subContainer{
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+     border-radius: 5px 5px 20px 20px ;
+     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+}
+.notes{
+     border-radius: 5px 5px 20px 20px ;
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+}
+.placenotes{
+     border-radius: 5px 5px 20px 20px ;
+     background-color: transparent;
+     height: 98%;
+     width: 96%;
+     /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+}
+textarea{
+     resize: none;
+     background-color: transparent;
+     border-radius: 5px 5px 20px 20px ;
+     height: 100%;
+     width: 100%;
+     outline: 0px;
+     border: 0px;
+     font-family: inherit;
+     padding: 10px 5px 80px 5px ;
+     font-size: 18px;
+     font-weight: bold;
+     justify-content: center;
+     text-align: justify;
+}
+body::-webkit-scrollbar{
+  width: 0px;   
+  height: 0px;
+}
+textarea::-webkit-scrollbar{
+width: 0px;    
+height: 0px;
+}
+.flex{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+}
+
+.bton{
+     background-color: transparent;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     /* position: fixed;
+     bottom: 5px;
+     margin: auto; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.bt{
+     background-color: transparent;
+     position: fixed;
+     bottom: 6px;
+     height: 60px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.btn{
+     background-color: transparent;
+     width: 80%;
+     height: 80%;
+     outline: 0px;
+     border: 0px;
+     border-radius: 100%;
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.btn:hover{
+     background-color: hsl(178.3,94.2%,47.4%);
+}
+
+textarea::placeholder{
+     opacity: 0.1;
+}
