@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.ksepoy",
+      "sha256_cert_fingerprints": ["2F:99:01:AF:41:74:C3:91:2C:88:50:6A:A2:F4:BE:60:99:27:7D:D9:D0:1E:F5:EA:79:10:1A:C3:67:A8:29:54"]
+    }
+  }
+]
